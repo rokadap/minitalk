@@ -6,7 +6,7 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 19:05:04 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/04 19:34:25 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/04 20:14:27 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,11 +42,11 @@ int	main(int argc, char **argv)
 	sa.sa_flags = SA_SIGINFO;
 	sa.sa_sigaction = signal_handler;
 	sigemptyset(&sa.sa_mask);
-	if (sigaddset(&sa.sa_mask, SIGUSR1) == -1 ||
-		sigaddset(&sa.sa_mask, SIGUSR2) == -1)
+	if (sigaddset(&sa.sa_mask, SIGUSR1) == -1
+		|| sigaddset(&sa.sa_mask, SIGUSR2) == -1)
 		error_handler("sigaddset error", NULL);
-	if (sigaction(SIGUSR1, &sa, NULL) == -1 ||
-		sigaction(SIGUSR2, &sa, NULL) == -1)
+	if (sigaction(SIGUSR1, &sa, NULL) == -1
+		|| sigaction(SIGUSR2, &sa, NULL) == -1)
 		error_handler("sigaction error", NULL);
 	while (1)
 	{

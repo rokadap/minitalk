@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rokada <rokada@student.42tokyo.jp>         +#+  +:+       +#+        */
+/*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/18 21:35:41 by rokada            #+#    #+#             */
-/*   Updated: 2024/06/26 17:51:49 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/04 20:13:43 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "libft.h"
 #include <stddef.h>
 /* 
 size_t	ft_strlen(const char *str)

@@ -6,11 +6,12 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/03 22:38:04 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/03 22:46:24 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/04 20:12:56 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../../include/libft.h"
+
 int	ft_isspace(int c)
 {
 	return (c == ' ' || (c >= '\t' && c <= '\r'));
