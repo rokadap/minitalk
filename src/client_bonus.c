@@ -6,7 +6,7 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 19:05:15 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/04 20:08:09 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/05 18:48:40 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ int	main(int argc, char **argv)
 	i = 0;
 	while (argv[2][i])
 		send_signal(pid, argv[2][i++]);
-	send_signal(pid, '\n');
+	send_signal(pid, '\0');
 	usleep(WAIT_TIME);
 	return (0);
 }

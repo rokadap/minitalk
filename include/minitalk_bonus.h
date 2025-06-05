@@ -6,7 +6,7 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 18:59:56 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/05 18:13:30 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/05 21:24:40 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,15 @@
 # include "../all_libft/include/libft.h"
 # include <signal.h>
 # include "ft_printf.h"
+# include <sys/types.h>
+
+typedef struct s_client
+{
+	pid_t			pid;
+	int				bit;
+	unsigned char	c;
+	struct s_client	*next;
+}	t_client;
 
 
 # ifdef __linux__
