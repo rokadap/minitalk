@@ -6,12 +6,11 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 19:04:56 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/04 19:52:23 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/05 18:15:14 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../include/minitalk.h"
-#include "ft_printf.h"
 
 void	signal_handler(int signal)
 {
