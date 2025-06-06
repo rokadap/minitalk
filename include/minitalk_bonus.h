@@ -6,7 +6,7 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 18:59:56 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/05 21:24:40 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/06 16:40:19 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ typedef struct s_client
 	unsigned char	c;
 	struct s_client	*next;
 }	t_client;
-
 
 # ifdef __linux__
 #  define WAIT_TIME 1125

@@ -6,7 +6,7 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 18:57:46 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/05 18:16:05 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/06 16:39:29 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include "../all_libft/include/libft.h"
 # include <signal.h>
 # include "ft_printf.h"
-
 
 # ifdef __linux__
 #  define WAIT_TIME 1100
