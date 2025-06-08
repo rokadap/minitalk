@@ -6,7 +6,7 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 18:59:56 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/06 16:40:19 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/07 15:42:07 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,6 @@
 # include "../all_libft/include/libft.h"
 # include <signal.h>
 # include "ft_printf.h"
-# include <sys/types.h>
-
-typedef struct s_client
-{
-	pid_t			pid;
-	int				bit;
-	unsigned char	c;
-	struct s_client	*next;
-}	t_client;
 
 # ifdef __linux__
 #  define WAIT_TIME 1125

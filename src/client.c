@@ -6,7 +6,7 @@
 /*   By: rokada <rokada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/01 19:05:11 by rokada            #+#    #+#             */
-/*   Updated: 2025/06/04 19:19:39 by rokada           ###   ########.fr       */
+/*   Updated: 2025/06/07 17:35:28 by rokada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,9 @@ void	send_signal(int pid, char c)
 		bit++;
 	}
 }
-
+01000100
+00000001
+00000000
 int	main(int argc, char **argv)
 {
 	int	pid;
